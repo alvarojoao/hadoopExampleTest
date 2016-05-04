@@ -51,7 +51,7 @@ P.s: `%HADOOP_PREFIX%` é o caminho para a raiz do projeto [Hadoop 2.3.0](https:
 1. `hadoop fs -mkdir /in` <br/>
 2. `hadoop fs -put location_requests.csv /in/location_requests.csv` <br/>
 
-###Execusão código java
+###Execução código java
 
 Nese processo, usamos o [eclipse Kepler] (http://www.eclipse.org/downloads/packages/eclipse-standard-431/keplersr1) com o plugin  <br/> hadoop instalado para facilitar a execusão dos programas e a obtenção dos resultados.
 
