@@ -33,3 +33,26 @@ Foi utilizado o **Hadoop** programado com **Java** para responder às seguintes 
   [AverageHourlyRequestsCountPerCountryJob.txt](https://github.com/alvarojoao/hadoopExampleTest/blob/master/src/results/AverageHourlyRequestsCountPerCountryJob.txt)<br/>
 
 
+## Como Executar o programa.
+
+###Instalações
+
+Foi usado o Haddop versão `hadoop-2.3.0`. <br/>
+Nessa versão executamos os seguintes comandos:
+
+1. `%HADOOP_PREFIX%\bin\hdfs namenode -format` <br/>
+2. `%HADOOP_PREFIX%\sbin\start-dfs.cmd` <br/>
+3. `%HADOOP_PREFIX%\sbin\start-yarn.cmd` <br/>
+
+P.s: `%HADOOP_PREFIX%` é o caminho para a raiz do projeto [Hadoop 2.3.0](https://wiki.apache.org/hadoop/Hadoop2OnWindows).
+
+###Upload da base [location_requests.csv](https://s3.amazonaws.com/ubee-public/data-samples/location_requests/north_america_sample.gz)
+
+1. `hadoop fs -mkdir /in` <br/>
+2. `hadoop fs -put location_requests.csv /in/location_requests.csv` <br/>
+
+###Execusão código java
+
+Nese processo, usamos o [eclipse Kepler] (http://www.eclipse.org/downloads/packages/eclipse-standard-431/keplersr1) com o plugin  <br/> hadoop instalado para facilitar a execusão dos programas e a obtenção dos resultados.
+
+P.s.: Foi utilizado o host `hdfs://127.0.0.1:9000/` 
