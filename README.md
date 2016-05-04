@@ -13,8 +13,8 @@ onde:
 **country**: sigla do país de origem da requisição. Pode ser **"MX"**, **"US"** ou **"CA"**;<br/>
 **lat**: latitude do ponto geográfico da requisição;<br/>
 **lng**: longitude do ponto geográfico da requisição;<br/>
-**timestamp**: timestamp do momento da requisição, formato: "EEE MMM d HH:mm:ss zzz yyyy" (ex: "Thu Mar 24 14:08:08
-BRT 2016")<br/>
+**timestamp**: timestamp do momento da requisição, formato:  **"EEE MMM d HH:mm:ss zzz yyyy"** (ex: **"Thu Mar 24 14:08:08
+BRT 2016"**)<br/>
 **source**: tecnologia da rede pela qual localização foi identificada. Assume valores **"gps"** ou **"wifi"** nesta amostra.<br/>
 
 Foi utilizado o **Hadoop** programado com **Java** para responder às seguintes questões:
