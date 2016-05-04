@@ -5,7 +5,7 @@
 Nesta amostra, no formato **csv**, encontram-se aproximadamente **20 milhões** de respostas à requisições de localização. Cada linha consiste no
 seguinte schema:
 
-        `"<mad_id>, <country>, <lat>, <lng>, <timestamp>, <source>"`
+        "<mad_id>, <country>, <lat>, <lng>, <timestamp>, <source>"
 
 onde:
 
