@@ -17,7 +17,7 @@ onde:
 BRT 2016"**)<br/>
 **source**: tecnologia da rede pela qual localização foi identificada. Assume valores **"gps"** ou **"wifi"** nesta amostra.<br/>
 
-Foi utilizado o **Hadoop** programado com **Java** para responder às seguintes questões:
+Foi utilizado o **Hadoop** programado com **Java** para responder as seguintes questões:
 
 1. Qual o número de usuários distintos por país? <br/>
   [DistinctUsersPerCountryJob.java](https://github.com/alvarojoao/hadoopExampleTest/blob/master/src/DistinctUsersPerCountryJob.java)<br/>
